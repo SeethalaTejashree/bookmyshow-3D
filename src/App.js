@@ -124,10 +124,7 @@ const movies = [
   const [bookingDone, setBookingDone] = useState(false);
   const [showPayment, setShowPayment] = useState(false);
   const [showTrailer, setShowTrailer] = useState(false);
-  const timings = ["10:00 AM", "1:30 PM", "6:00 PM"];
-  const [selectedTime, setSelectedTime] = useState("");
   const [snacks, setSnacks] = useState([]);
-  const [filter, setFilter] = useState("All");
   const snackItems = [
   { name: "Popcorn", price: 150 },
   { name: "Coke", price: 80 },
