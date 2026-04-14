@@ -276,7 +276,6 @@ const movies = [
           <p><strong>Movie:</strong> {selectedMovie?.name}</p>
           <p><strong>Seats:</strong> {selectedSeats.join(", ")}</p>
           <p><strong>Total Paid:</strong> ₹{totalPrice}</p>
-          <p><strong>Time:</strong> {selectedTime}</p>
           <p><strong>Snacks:</strong> {snacks.join(", ")}</p>
 
           <button
